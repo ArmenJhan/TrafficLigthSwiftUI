@@ -37,9 +37,8 @@ struct ContentView: View {
                         .frame(width: 130, height: 50)
                 }
                 .background(Color.blue)
-                .overlay(Capsule().stroke(Color.white, lineWidth: 4))
-                .clipShape(Capsule())
-                
+                .overlay(RoundedRectangle(cornerRadius: 17).stroke(Color.white, lineWidth: 4))
+                .clipShape(RoundedRectangle(cornerRadius: 17))
             }
             .padding(.bottom, 80)
         }
