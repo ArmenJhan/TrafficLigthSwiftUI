@@ -11,6 +11,7 @@
 		C00E6DA12943681700C9CF71 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C00E6DA02943681700C9CF71 /* ContentView.swift */; };
 		C00E6DA32943681800C9CF71 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C00E6DA22943681800C9CF71 /* Assets.xcassets */; };
 		C00E6DA62943681800C9CF71 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C00E6DA52943681800C9CF71 /* Preview Assets.xcassets */; };
+		C00E6DAD2943738000C9CF71 /* ColorCircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C00E6DAC2943738000C9CF71 /* ColorCircleView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		C00E6DA02943681700C9CF71 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		C00E6DA22943681800C9CF71 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C00E6DA52943681800C9CF71 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C00E6DAC2943738000C9CF71 /* ColorCircleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorCircleView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +55,7 @@
 			children = (
 				C00E6D9E2943681700C9CF71 /* TrafficLigthSwiftUIApp.swift */,
 				C00E6DA02943681700C9CF71 /* ContentView.swift */,
+				C00E6DAC2943738000C9CF71 /* ColorCircleView.swift */,
 				C00E6DA22943681800C9CF71 /* Assets.xcassets */,
 				C00E6DA42943681800C9CF71 /* Preview Content */,
 			);
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C00E6DAD2943738000C9CF71 /* ColorCircleView.swift in Sources */,
 				C00E6DA12943681700C9CF71 /* ContentView.swift in Sources */,
 				C00E6D9F2943681700C9CF71 /* TrafficLigthSwiftUIApp.swift in Sources */,
 			);
